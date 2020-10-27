@@ -287,16 +287,24 @@ img {
   width: 700px;
 }
 
-.footer .left .copyright {
-  padding: 20px 0;
+.footer .left .email_ad {
+  margin-top: 41px;
+  line-height: 20px;
+  margin-bottom: 14px;
 }
 
 .footer .right {
   float: right;
-  width: 770px;
 }
 
-.footer .right .bottom_menu {
+.footer .buttons .store {
+  display: flex;
+  margin-right: 20px;
+}
+
+.footer .buttons .icon {
+  display: flex;
+  margin-right: 16px;
 }
 
 .footer .right .bottom_menu > li {
