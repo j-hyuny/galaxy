@@ -247,8 +247,8 @@ img {
 /* section_05 */
 .sec_05 .container {
   display: flex;
-  justify-content: center;
-  flex-direction: column;
+  justify-content: center; /*중앙 정렬*/
+  flex-direction: column; /*세로로 정렬*/
   align-items: center;
   padding: 48px 0 72px;
 }
