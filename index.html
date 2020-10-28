@@ -1,227 +1,111 @@
 <!DOCTYPE html>
 <html lang="ko">
   <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>galaxy</title>
-    <link rel="stylesheet" href="./css/reset.css">
-    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/xeicon@2.3.3/xeicon.min.css" />
   </head>
   <body>
     <!-- header -->
     <div class="header">
-      <a href="#" class="logo"><img src="./images/logo.png" alt="로고"></a>
-        <ul>
+      <div class="container top">
+        <a href="#" class="logo"><img src="./images/logo.png" alt="로고" /></a>
+        <ul class="nav">
           <li><a href="#">홈</a></li>
           <li><a href="#">스마트폰</a></li>
           <li><a href="#">태블릿</a></li>
           <li><a href="#">워치</a></li>
           <li><a href="#">버즈</a></li>
           <li><a href="#">기타</a></li>
-          <div class="shopping_cart">
-            <div class="btn">
-             <a href="#"><img src="./images/shopping_cart.png" alt="쇼핑카트"></a>
-            </div>
-          </div>
         </ul>
+        <a href="#" class="shop_cart"><i class="xi-cart-o"></i><span>2</span></a>
+      </div>
     </div>
 
     <!-- slide -->
-    <div class="slide_container">
-      <div class="container slide">
-        <h2>Galaxy tab 7<br>5G 런칭</h2>
-        <li>
-          <p>자세히 보기</p>
-          <a href="#" class="slide_btn">구매혜택보기</a>
-        </li>
+    <div class="section slide">
+      <div class="container">
+        <div class="slide_text">
+          <h2>Galaxy tab 7 5G<br />런칭</h2>
+          <div class="btns">
+            <a href="#" class="view">자세히 보기</a>
+            <a href="#" class="btn">구매혜택보기</a>
+          </div>
+        </div>
       </div>
     </div>
 
-    <div class="content">
-      <!-- section_01 -->
-      <div class="section sec_01">
-        <div class="container">
-          <ul class="blog">
-            <li>
-              <img src="./images/watch-ov.png" alt="시계">
-              <h4>Watch</h4>
+    <!-- scetion_01-->
+    <div class="section scetion_01">
+      <div class="container">
+        <ul class="cards">
+          <li class="card">
+            <div class="card__info">
+              <h3>watch</h3>
               <p>보다 완벽해진 스마트 헬스케어 워치</p>
-              <a href="#" class="sec_01_btn">자세히 보기</a>
-            </li>
-            <li>
-              <img src="./images/buds-ov.png" alt="시계">
-              <h4>buds</h4>
+              <a href="#" class="btn btn_line">자세히 보기</a>
+            </div>
+          </li>
+          <li class="card">
+            <div class="card__info">
+              <h3>buds</h3>
               <p>처음 만나는 갤럭시 오픈형 무선 이어폰</p>
-              <a href="#" class="sec_01_btn">자세히 보기</a> 
-            </li>
-          </ul>
-        </div>
+              <a href="#" class="btn btn_line">자세히 보기</a>
+            </div>
+          </li>
+        </ul>
       </div>
+    </div>
 
-
-      <!-- section_02 -->
-      <div class="section sec_02">
-        <div class="container">
-          <h4>또 다른 Galaxy를 만나보세요</h4>
-          <p>당신에게 꼭 맞는 갤럭시는?</p>
-          <div class="series">
-            <ul class="items">
-              <li>
-                <img src="./images/watch.png" alt="">
-              </li>
-              <li>
-                <img src="./images/note.png" alt="">
-              </li>
-              <li>
-                <img src="./images/buds-ov.png" alt="">
-              </li>
-              <li>
-                <img src="./images/fold.png" alt="">
-              </li>
-            </ul>
-        </div>
+    <!-- scetion_02-->
+    <div class="section scetion_02">
+      <div class="container">
+        <h2>또 다른 Galaxy를 만나보세요</h2>
+        <p>당신에게 꼭 맞는 갤럭시는?</p>
+        <ul class="items">
+          <li><img src="./images/watch.png" alt="" /></li>
+          <li><img src="./images/note.png" alt="" /></li>
+          <li><img src="./images/buds-ov.png" alt="" /></li>
+          <li><img src="./images/fold.png" alt="" /></li>
+        </ul>
       </div>
+    </div>
 
-
-      <!-- section_03 -->
-      <div class="section sec_03">
-        <div class="container">
+    <!-- banner -->
+    <div class="section banner">
+      <div class="container">
+        <div class="banner_text">
           <h2>갤럭시 핏</h2>
-            <p>
-             수면, 심박수, 스트레스 등 다양한 데이터를 쉽게 확인하고<br>
-             파워풀 배터리로 걱정없이 오래 착용 할 수 있습니다.
-            </p>
-          <a href="#" class="slide_btn">구매혜택보기</a>
-        </div>
-      </div>
-
-
-      <!-- section_04 -->
-      <div class="section sec_04">
-        <div class="container">
-          <h4>찾고있는 Galaxy가 있나요?</h4>
-          <p>당신에게 꼭 맞는 갤럭시는?</p>
-          <div class="series">
-            <ul class="items">
-              <li>
-                <img src="./images/watch.png" alt="">
-              </li>
-              <li>
-                <img src="./images/buds.png" alt="">
-              </li>
-              <li>
-                <img src="./images/note-ov.png" alt="">
-              </li>
-              <li>
-                <img src="./images/fold.png" alt="">
-              </li>
-            </ul>
-              <ul class="items">
-              <li>
-                <img src="./images/buds-ov.png" alt="">
-              </li>
-              <li>
-                <img src="./images/note.png" alt="">
-              </li>
-              <li>
-                <img src="./images/watch-ov.png" alt="">
-              </li>
-              <li>
-                <img src="./images/buds.png" alt="">
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-
-
-      <!-- section_05 -->
-      <div class="section sec_05">
-        <div class="container">
-          <h4>5G와  함께하는 삶</h4>
-          <p>당신의 삶을 변화시킬 5G</p>
-          <div class="items">
-            <ul class="photo">
-              <li>
-                <img src="./images/5g_01.png" alt="">
-              </li>
-              <li>
-                <img src="./images/5g_02.png" alt="">
-              </li>
-              <li>
-                <img src="./images/5g_03.png" alt="">
-              </li>
-            </ul>
+          <p>
+            수면, 심박수, 스트레스 등 다양한 데이터를 쉽게 확인하고<br />
+            파워풀 배터리로 걱정없이 오래 착용 할 수 있습니다.
+          </p>
+          <div class="btns">
+            <a href="#" class="btn">구매혜택보기</a>
           </div>
         </div>
       </div>
     </div>
 
-
-
-      <!-- footer -->
-      <div class="footer">
-        <div class="container">
-          <div class="left">
-            <div class="bottom_logo"><img src="./images/logo2.png" alt=""></div>
-            <p class="email_ad">
-              여러분의 이메일 주소를 보내주세요.<br>
-              갤럭시의 새로운 소식을 빠르고 간편하게 확인 할 수 있습니다.
-            </p>
-            <div class="buttons">
-              <ul class="store">
-                <li>
-                  <img src="./images/section/App store.png" alt="">
-                </li>
-                <li>
-                  <img src="./images/section/Google store.png" alt="">
-                </li>
-              </ul>
-              <ul class="icon">
-                <li>
-                  <img src="./images/section/icon/1.png" alt="">
-                </li>
-                <li>
-                  <img src="./images/section/icon/2.png" alt="">
-                </li>
-                <li>
-                  <img src="./images/section/icon/3.png" alt="">
-                </li>
-                <p>Copyright © 2020 Galaxy All Rights Reserved.</p>
-              </ul>
-            </div>
-          </div>
-          <div class="right">
-            <ul class="bottom_menu">
-              <li>
-                <a href="#">기업정보</a>
-                <ul>
-                  <li><a href="#">회사소개</a></li>
-                  <li><a href="#">공지사항</a></li>
-                  <li><a href="#">제품 접근성</a></li>
-                </ul>
-              </li>
-              <li>
-                <a href="#">고객문의</a>
-                <ul>
-                  <li><a href="#">서비스 센터 찾기</a></li>
-                  <li><a href="#">디지털프라자</a></li>
-                  <li><a href="#">이메일 상담</a></li>
-                  <li><a href="#">FAQ</a></li>
-                </ul>
-              </li>
-              <li>
-                <a href="#">제품소개</a>
-                <ul>
-                  <li><a href="#">스마트폰</a></li>
-                  <li><a href="#">태블릿</a></li>
-                  <li><a href="#">워치</a></li>
-                  <li><a href="#">버즈</a></li>
-                </ul>
-              </li>
-            </ul>
-          </div>
-        </div>
+    <!-- scetion_03-->
+    <div class="section scetion_02">
+      <div class="container">
+        <h2>찾고있는 Galaxy가 있나요?</h2>
+        <p>당신에게 꼭 맞는 갤럭시는?</p>
+        <ul class="items">
+          <li><img src="./images/watch.png" alt="" /></li>
+          <li><img src="./images/buds.png" alt="" /></li>
+          <li><img src="./images/note-ov.png" alt="" /></li>
+          <li><img src="./images/fold.png" alt="" /></li>
+          <li><img src="./images/buds-ov.png" alt="" /></li>
+          <li><img src="./images/note.png" alt="" /></li>
+          <li><img src="./images/watch-ov.png" alt="" /></li>
+          <li><img src="./images/buds.png" alt="" /></li>
+        </ul>
       </div>
+    </div>
   </body>
 </html>
