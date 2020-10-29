@@ -200,12 +200,12 @@ img {
 
 /* banner */
 .banner {
-  background: black;
+  /* background: black; */
+  background: #222 url('../images/bg_02.png') no-repeat center / cover;
 }
 
 .banner .container {
   height: 600px;
-  background: url('../images/bg_02.png') no-repeat 50% 50%;
 }
 
 .banner_text {
@@ -230,7 +230,6 @@ img {
   background: #fff;
   color: #111;
   display: inline-block;
-  padding: 14px 40px;
   border: 1px solid #111;
   border-radius: 28px;
 }
@@ -241,12 +240,12 @@ img {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  padding: 48px 0 72px;
 }
 
 .scetion_03 .container h2 {
   font-size: 36px;
   font-weight: 800;
+  margin-top: 48px;
 }
 
 .scetion_03 .container p {
@@ -273,8 +272,15 @@ img {
   justify-content: space-between;
 }
 
-.scetion_03 .container .items li:nth-child(4) {
+.scetion_03 .container .items li:nth-child(4n) {
   margin: inherit;
+}
+
+.scetion_03 .container .items li:nth-child(5),
+.scetion_03 .container .items li:nth-child(6),
+.scetion_03 .container .items li:nth-child(7),
+.scetion_03 .container .items li:nth-child(8) {
+  margin-bottom: inherit;
 }
 
 /* section_04 */
@@ -301,12 +307,22 @@ img {
   justify-content: space-between;
 }
 
+.scetion_04 .items li {
+  width: 360px;
+  height: 360px;
+}
+
+.scetion_04 .container .items li:nth-child(3) {
+  margin: inherit;
+}
+
 /* footer */
 /* footer_left */
 .footer {
   background: #222222;
   color: #fff;
   overflow: hidden;
+  padding: 120px 0;
 }
 
 .footer .left {
@@ -314,7 +330,6 @@ img {
 }
 
 .footer .footer_logo {
-  margin-top: 120px;
 }
 
 .footer .footer_logo p {
@@ -356,6 +371,9 @@ img {
   display: flex;
   margin-top: 20px;
   margin-bottom: 20px;
+}
+
+.footer .store .store_button li {
   margin-right: 20px;
 }
 
@@ -369,17 +387,14 @@ img {
 
 .footer .sns p {
   color: #f2f2f2;
-  margin-bottom: 100px;
 }
 
 /* footer_right */
 .footer .right {
-  float: right;
-  margin-top: 140px;
 }
 
 .footer .right .bottom_menu {
-  margin-bottom: 217px;
+  display: flex;
 }
 
 .footer .right .bottom_menu > li {
@@ -400,4 +415,8 @@ img {
 
 .footer .right .bottom_menu ul li {
   margin-bottom: 30px;
+}
+
+.copyright {
+  clear: both;
 }
