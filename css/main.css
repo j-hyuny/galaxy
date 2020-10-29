@@ -151,41 +151,51 @@ img {
   font-size: 30px;
 }
 
-.card__info p {
+.scetion_01 .card__info p {
   margin: 20px 0 38px 0;
+  color: #666666;
 }
 
 /* section_02 */
 .scetion_02 .container {
   display: flex;
   justify-content: center;
-  flex-direction: column;
   align-items: center;
+  flex-direction: column;
   padding: 48px 0 72px;
 }
 
-.container h2 {
+.scetion_02 .container h2 {
   font-size: 36px;
   font-weight: 800;
 }
 
-.container p {
+.scetion_02 .container p {
   font-size: 16px;
   margin: 32px 0 66px 0;
   color: #666666;
 }
 
-.container .items {
+.scetion_02 .container .items {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  /* justify-content: center;
+  align-items: center; */
+}
+
+.scetion_02 .container .items img {
+  margin: 50px 54px 50px 46px;
 }
 
 .container .items li {
   background: #f5f5f5;
+  margin-right: 40px;
   height: 260px;
   width: 260px;
   justify-content: space-between;
+}
+
+.container .items li:nth-child(4) {
+  margin: inherit;
 }
 
 /* banner */
@@ -195,7 +205,7 @@ img {
 
 .banner .container {
   height: 600px;
-  background: url('../images/bg_02.png') no-repeat right 50%;
+  background: url('../images/bg_02.png') no-repeat 50% 50%;
 }
 
 .banner_text {
@@ -213,17 +223,181 @@ img {
   font-weight: 600;
   color: #fff;
   line-height: 1.6;
-  margin-bottom: 42px 0 56px 0;
+  margin: 42px 0 56px 0;
 }
 
-.banner .btns {
-  color: white;
-}
-
-.banner .btns a {
-  color: black;
+.banner_text .btns a {
+  background: #fff;
+  color: #111;
+  display: inline-block;
+  padding: 14px 40px;
+  border: 1px solid #111;
+  border-radius: 28px;
 }
 
 /* section_03 */
+.scetion_03 .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 48px 0 72px;
+}
+
+.scetion_03 .container h2 {
+  font-size: 36px;
+  font-weight: 800;
+}
+
+.scetion_03 .container p {
+  font-size: 16px;
+  margin: 32px 0 66px 0;
+  color: #666666;
+}
+
+.scetion_03 .container .items {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.scetion_03 .container .items img {
+  margin: 50px 54px 50px 45px;
+}
+
+.scetion_03 .container .items li {
+  background: #f5f5f5;
+  margin-right: 40px;
+  margin-bottom: 40px;
+  height: 260px;
+  width: 260px;
+  justify-content: space-between;
+}
+
+.scetion_03 .container .items li:nth-child(4) {
+  margin: inherit;
+}
 
 /* section_04 */
+.scetion_04 .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.scetion_04 .container h2 {
+  font-size: 36px;
+  font-weight: 800;
+}
+
+.scetion_04 .container p {
+  font-size: 16px;
+  margin: 32px 0 66px 0;
+  color: #666666;
+}
+
+.scetion_04 .items {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* footer */
+/* footer_left */
+.footer {
+  background: #222222;
+  color: #fff;
+  overflow: hidden;
+}
+
+.footer .left {
+  float: left;
+}
+
+.footer .footer_logo {
+  margin-top: 120px;
+}
+
+.footer .footer_logo p {
+  margin: 46px 226px 14px 0;
+  line-height: 1.6;
+  font-size: 14px;
+}
+
+.footer .email_box {
+  display: flex;
+}
+
+.footer .email_box .email {
+  background: #fff;
+  width: 358px;
+  height: 50px;
+  color: #666666;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+}
+
+.footer .email p {
+  margin-left: 20px;
+}
+
+.footer .email_box .email_button {
+  background: #eb5757;
+  width: 100px;
+  height: 50px;
+  color: #fff;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer .store .store_button {
+  display: flex;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-right: 20px;
+}
+
+.footer .sns {
+  display: flex;
+}
+
+.footer .sns img {
+  margin: 0 16px 65px 0;
+}
+
+.footer .sns p {
+  color: #f2f2f2;
+  margin-bottom: 100px;
+}
+
+/* footer_right */
+.footer .right {
+  float: right;
+  margin-top: 140px;
+}
+
+.footer .right .bottom_menu {
+  margin-bottom: 217px;
+}
+
+.footer .right .bottom_menu > li {
+  display: inline-block;
+  padding-right: 130px;
+}
+
+.footer .right .bottom_menu > li:last-child {
+  padding-right: 0;
+}
+
+.footer .right .bottom_menu > li > a {
+  display: inline-block;
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 52px;
+}
+
+.footer .right .bottom_menu ul li {
+  margin-bottom: 30px;
+}
